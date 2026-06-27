@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Cormorant+Garamond:wght@400;600;700&family=Nunito:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #fffaf8;
+  color: #374151;
+}
+
+.font-title {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-serif-elegant {
+  font-family: 'Cormorant Garamond', serif;
+}

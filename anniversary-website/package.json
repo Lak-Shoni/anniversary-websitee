@@ -1,0 +1,47 @@
+{
+  "name": "anniversary-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@axe-core/react": "^4.12.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitest/coverage-v8": "^1.6.1",
+    "canvas-confetti": "^1.9.4",
+    "date-fns": "^4.4.0",
+    "date-fns-tz": "^3.2.0",
+    "fast-check": "^4.8.0",
+    "focus-trap-react": "^12.0.3",
+    "framer-motion": "^12.42.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0",
+    "vitest": "^1.6.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.2",
+    "jsdom": "^27.0.1",
+    "oxlint": "^0.15.0",
+    "postcss": "^8.5.15",
+    "rollup-plugin-visualizer": "^6.0.11",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "optionalDependencies": {
+    "@oxlint/binding-win32-x64-msvc": "^1.71.0"
+  }
+}
